@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: demo-app
   labels:
-    run: demo-app
+    app: demo-app
 spec:
   ports:
   - port: 8080
